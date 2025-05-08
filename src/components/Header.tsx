@@ -120,6 +120,7 @@ const navLinks = [
   { path: '/goods', label: '굿즈 보기' },
   { path: '/test', label: '테스트 하러 가기' },
   { path: '/about', label: '프로젝트 소개' },
+  { path: '/blog', label: '블로그' },
 ];
 
 export default Header;
