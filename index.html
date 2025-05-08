@@ -7,7 +7,19 @@
     <meta name="description" content="서로 다른 우리가 함께 웃을 수 있는 정치 굿즈 프로젝트. 중도와 화합을 추구하는 재미있는 굿즈와 정치성향 테스트를 만나보세요." />
     <meta name="keywords" content="중도, 화합, 정치 성향 테스트, 재밌는 굿즈, 정치 굿즈" />
     <title>중도와화합 - 서로 다른 우리가 함께 웃을 수 있도록</title>
-    <script type="module" crossorigin src="/Fellowship/assets/index-PXr6AycQ.js"></script>
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/Fellowship/assets/index-BQ5n9Nb7.js"></script>
     <link rel="stylesheet" crossorigin href="/Fellowship/assets/index-BcymogEp.css">
   </head>
   <body>
